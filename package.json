@@ -1,0 +1,26 @@
+{
+    "name": "hellworld",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --inspect ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lixxkook00/nodejs-blog.git"
+    },
+    "author": "lixxkook",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lixxkook00/nodejs-blog/issues"
+    },
+    "homepage": "https://github.com/lixxkook00/nodejs-blog#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
